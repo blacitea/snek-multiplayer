@@ -55,6 +55,8 @@ const MESSAGE_TIMEOUT = 5000 // ms
 // auto move is the usual snake mode
 // its off, meaning snakes are still until moved by players
 const AUTO_MOVE_DEFAULT = false
+// If you want the snake to move by itself even when no input
+// const AUTO_MOVE_DEFAULT = true
 
 module.exports = {
   GAME_SPEED,
